@@ -24,7 +24,7 @@ jobs:
       with:
         image: adfruntime
         tags: 5.9.7984.1
-        registry: akavasis.azurecr.io
+        registry: ${{ secrets.ACR }} 
         dockerfile: Dockerfile
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.SECRET_TOKEN_1 }}   
+        username: ${{ secrets.ACR_TOKEN_ΝΑΜΕ }}
+        password: ${{ secrets.ACR_TOKEN_PWD }}   

@@ -26,5 +26,5 @@ jobs:
         tags: 5.9.7984.1
         registry: ${{ secrets.ACR }} 
         dockerfile: Dockerfile
-        username: ${{ secrets.ACR_TOKEN_ΝΑΜΕ }}
-        password: ${{ secrets.ACR_TOKEN_PASSWORD }}   
+        username: ${{ secrets.ACR_USERNAME }}
+        password: ${{ secrets.ACR_PASSWORD }}   

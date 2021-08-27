@@ -27,4 +27,4 @@ jobs:
         registry: ${{ secrets.ACR }} 
         dockerfile: Dockerfile
         username: ${{ secrets.ACR_TOKEN_ΝΑΜΕ }}
-        password: ${{ secrets.ACR_TOKEN_PWD }}   
+        password: ${{ secrets.ACR_TOKEN_PASSWORD }}   
